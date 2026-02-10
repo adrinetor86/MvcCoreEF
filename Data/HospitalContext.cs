@@ -10,13 +10,11 @@ namespace MvcCoreEF.Data
         //LA CLASE QUE RECIBE ES DbContextOptions<Context>
         //ESTAS options DEBEMOS ENVIARLAS A LA CLASE BASE/SUPER
         //DEL DbContext
-        public HospitalContext
-            (DbContextOptions<HospitalContext> options):base(options)
+        public HospitalContext(DbContextOptions<HospitalContext> options):base(options)
         {
 
         }
-
-
+        
         //DEBEMOS TENER UNA COLECCION POR CADA MODEL
         //DICHA COLECCION DEBE SER DE TIPO DbSet<T>
 
